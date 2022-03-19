@@ -1,0 +1,152 @@
+.header__container{
+    position: relative;
+    width : var(--container-width-hd);
+    height : 100vh;
+    background : url('../../assets/background.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 100;
+    font-family: var(--font-family);
+}
+
+.header__container::before{
+    position: absolute;
+    width : var(--container-width-hd);
+    height : 100vh;
+    content : '';
+    top : 0;
+    left : 0;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 0;
+}
+
+.profile-box{
+    position: relative;
+    width : 250px;
+    height : 250px;
+    border-radius: 50%;
+    z-index: 10;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    transition: var(--transtion);
+    box-shadow: 5rem 5rem 10rem solid rgba(0,0, 0, 0.5);
+    margin-top: 7rem;
+    overflow: hidden;
+}
+
+img{
+    position: absolute;
+    width : 250px;
+    height : 250px;
+}
+
+.profile-title{
+    position: relative;
+    left : 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding : 2rem;
+}
+
+.profile-title h1{
+    color : var(--color-white);
+    font-size: 3.5rem;
+}
+
+.profile-sub-title{
+    text-align: center;
+    width : 300px;
+    height : 50px;
+    white-space: normal;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.header-social{
+    position: absolute;
+    left : 0;
+    bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap : 0.8rem;
+    padding : 0 5rem;
+}
+
+.header-social::after{
+    width : 5px;
+    height : 5rem;
+    content: '';
+    background-color: var(--color-white);
+}
+
+.scroll{
+    position: absolute;
+    width : 40px;
+    height : 40px;
+    transform: translateX(-50%) translateY(-80px) rotate(45deg);
+    margin-left : 50%;
+    bottom : 1rem;
+}
+
+.scroll span{
+    position: absolute;
+    width : 40px;
+    height : 40px;
+    top : 0;
+    left : 0;
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+}
+
+.scroll span:nth-child(1){
+    transform: translate(-15px, -15px);
+    animation-delay: -0.4s;
+}
+
+.scroll span:nth-child(2){
+    transform: translate(0, 0);
+    animation-delay: -0.2s;
+}
+
+.scroll span:nth-child(3){
+    transform: translate(15px, 15px);
+    animation-delay: -0s;
+}
+
+@keyframes animate{
+    0%{
+        top : -5px;
+        left : -5px;
+        opacity: 0;
+    }
+
+    50%{
+        top : 0px;
+        left : 0px;
+        opacity: 1;
+    }
+
+    100%{
+        top : 5px;
+        left : 5px;
+        opacity: 0;
+    }
+}
+
+.scroll-down{
+    position: absolute;
+    left : 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    bottom : 10rem;
+}
+
+.scroll-down h1{
+    color : #fff;
+}
+
+
