@@ -4,6 +4,7 @@ import profileImg from '../../assets/저스트펀 크루.jpg'
 import HeaderSocial from '../header/HeaderSocial'
 
 const Header = () => {
+
   return (
     <section id = "header">
 
@@ -22,6 +23,8 @@ const Header = () => {
       </div>
 
       <HeaderSocial />
+
+      <button type = "submit"></button>
 
       <div className = "scroll-down">
         <h1>scroll</h1>

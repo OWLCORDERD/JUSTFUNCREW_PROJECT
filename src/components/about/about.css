@@ -16,7 +16,7 @@
 .About-title{
     position: absolute;
     font-size: 14rem;
-    z-index: 10;
+    z-index: 10; 
 }
 
 .About_container{
