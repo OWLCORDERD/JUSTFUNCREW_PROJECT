@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/JUSTFUNCREW_PROJECT.git/static/css/main.6b8085e0.css",
+    "main.js": "/JUSTFUNCREW_PROJECT.git/static/js/main.2e55305b.js",
+    "static/media/정우석.gif": "/JUSTFUNCREW_PROJECT.git/static/media/정우석.8147d351633188a4d3d7.gif",
+    "static/media/background.jpg": "/JUSTFUNCREW_PROJECT.git/static/media/background.6db7c2519408c7bdb71a.jpg",
+    "static/media/CEO.jpg": "/JUSTFUNCREW_PROJECT.git/static/media/CEO.6f58ef8c257de0760aad.jpg",
+    "static/media/저스트펀 크루.jpg": "/JUSTFUNCREW_PROJECT.git/static/media/저스트펀 크루.4ea329e0933cc7416210.jpg",
+    "static/media/FromTheStreet.jpg": "/JUSTFUNCREW_PROJECT.git/static/media/FromTheStreet.59a9ebede3028aaa18db.jpg",
+    "static/media/Class101.jpg": "/JUSTFUNCREW_PROJECT.git/static/media/Class101.941c1ebd1332fadd7a35.jpg",
+    "index.html": "/JUSTFUNCREW_PROJECT.git/index.html",
+    "main.6b8085e0.css.map": "/JUSTFUNCREW_PROJECT.git/static/css/main.6b8085e0.css.map",
+    "main.2e55305b.js.map": "/JUSTFUNCREW_PROJECT.git/static/js/main.2e55305b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b8085e0.css",
+    "static/js/main.2e55305b.js"
+  ]
+}
