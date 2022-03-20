@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/JUSTFUNCREW_PROJECT/static/css/main.0bfe1d85.css",
+    "main.css": "/JUSTFUNCREW_PROJECT/static/css/main.dd80a9f5.css",
     "main.js": "/JUSTFUNCREW_PROJECT/static/js/main.8dcc53b0.js",
     "static/media/background.jpg": "/JUSTFUNCREW_PROJECT/static/media/background.6db7c2519408c7bdb71a.jpg",
     "static/media/CEO.jpg": "/JUSTFUNCREW_PROJECT/static/media/CEO.6f58ef8c257de0760aad.jpg",
@@ -8,11 +8,11 @@
     "static/media/FromTheStreet.jpg": "/JUSTFUNCREW_PROJECT/static/media/FromTheStreet.59a9ebede3028aaa18db.jpg",
     "static/media/Class101.jpg": "/JUSTFUNCREW_PROJECT/static/media/Class101.941c1ebd1332fadd7a35.jpg",
     "index.html": "/JUSTFUNCREW_PROJECT/index.html",
-    "main.0bfe1d85.css.map": "/JUSTFUNCREW_PROJECT/static/css/main.0bfe1d85.css.map",
+    "main.dd80a9f5.css.map": "/JUSTFUNCREW_PROJECT/static/css/main.dd80a9f5.css.map",
     "main.8dcc53b0.js.map": "/JUSTFUNCREW_PROJECT/static/js/main.8dcc53b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bfe1d85.css",
+    "static/css/main.dd80a9f5.css",
     "static/js/main.8dcc53b0.js"
   ]
 }
