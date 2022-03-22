@@ -1,9 +1,8 @@
 import React from 'react'
 import './about.css'
-import AboutImg from '../../assets/정우석.gif'
-import AboutImg2 from '../../assets/Class101.jpg'
-import AboutImg3 from '../../assets/FromTheStreet.jpg'
-import AboutImg4 from '../../assets/저스트펀 크루.jpg'
+import AboutImg1 from '../../assets/Class101.jpg'
+import AboutImg2 from '../../assets/FromTheStreet.jpg'
+import AboutImg3 from '../../assets/저스트펀 크루.jpg'
 
 
 
@@ -27,15 +26,15 @@ const About = () => {
 
         <div className = "About_contents_items">
           <div class = "About_contents_item">
-            <img src = {AboutImg2} alt = "About-img"></img>
+            <img src = {AboutImg1} alt = "About-img"></img>
             <h1 class = "item_hover">CLASS 101</h1>
           </div>
           <div class = "About_contents_item">
-            <img src = {AboutImg3} alt = "About-img"></img>
+            <img src = {AboutImg2} alt = "About-img"></img>
             <h1 class = "item_hover">FROM THE SREET</h1>
           </div>
           <div class = "About_contents_item">
-            <img src = {AboutImg4} alt = "About-img"></img>
+            <img src = {AboutImg3} alt = "About-img"></img>
             <h1 class = "item_hover">YOUTUBE</h1>
           </div>
         </div>

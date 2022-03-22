@@ -1,0 +1,75 @@
+#Profile{
+    background : url('../../assets/저스트펀\ 내부.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#Profile::before{
+    position: absolute;
+    content : '';
+    width : 100%;
+    height : 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Profile_title{
+    width : 100%;
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+}
+
+.Profile_title h1{
+    font-size: 10rem;
+}
+
+section .Profile_container{
+    width : var(--container-width-lg);
+    height : 80vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    place-items: center;
+    margin : auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+}
+
+.Profile_container .Profile_Director{
+    position: relative;
+    width : 500px;
+    height : 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+
+.Profile_container .Profile_Director img{
+    position: absolute;
+    width : 100%;
+    height : 100%;
+}
+
+.Profile_container .Profile_member{
+    width : 100%;
+    height : 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap : 1rem;
+}
+
+.Profile_container .Profile_member .LeeJunMyeong, .JungWooSeok, .SongWooSeok, .SeoJungWook{
+    position: relative;
+    width : 250px;
+    height : 250px;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.Profile_container .Profile_member .LeeJunMyeong img, .JungWooSeok img, .SongWooSeok img, .SeoJungWook img{
+    position: absolute;
+    width : 100%;
+    height : 100%;
+}

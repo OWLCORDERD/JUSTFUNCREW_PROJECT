@@ -7,8 +7,8 @@ import {HiOutlineDocumentSearch} from 'react-icons/hi'
 const Nav = () => {
     let [ActiveNav, SetActiveNav] = useState('#');
   return (
-      <nav>
-          <a href = "#header" onClick={() => SetActiveNav('#') } className={ActiveNav === '#' ? 'active' : ''}>
+      <nav class = "desktop_nav">
+          <a href = "#header" onClick={() => SetActiveNav('#header') } className={ActiveNav === '#header' ? 'active' : ''}>
               <AiFillHome/></a>
           <a href = "#About" onClick={() => SetActiveNav('#About') } className={ActiveNav === '#About' ? 'active' : ''}>
               <HiOutlineDocumentSearch/></a>
