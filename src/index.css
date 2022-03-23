@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 
 *{
   margin : 0;
@@ -23,6 +24,7 @@ html{
   --color-bright : rgba(255,255,255,0.4);
   --color-opacity : rgba(0,0,0,0.6);
   --section-font-family : 'Audiowide', cursive;
+  --profile-font-family : 'Gugi' , cursive;
 
   --container-width-lg : 75%;
   --container-width-hd : 100%;
